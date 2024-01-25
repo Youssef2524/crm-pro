@@ -1,0 +1,154 @@
+.YK-smsphoto{
+    width: 463px;
+    height: 647px;
+}
+.YK-smsphoto-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 17px;
+
+}
+.YK-smsphoto-header-left{
+display: flex;
+gap: 5px;
+}
+.YK-smsphoto-header-right {
+    color: #9CA3B7;
+    text-align: right;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* size / font-size-20 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.YK-smsphoto-titlt1 {
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* heading / h4 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+}
+.YK-smsphoto-titlt1 h2{
+    margin: 10px !important;
+    height: 24px;
+
+}
+.YK-smsphoto-title2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.YK-smsphoto-title2 img {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: end;
+    align-items: end;
+}
+
+.YK-smsphoto-title2 p {
+    width: 70px;
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* heading / h6 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.YK-smsphoto-title2 span {
+    color: var(--text-color-text-weak, #606B85);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* size / font-size-10 */
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 160% */
+}
+
+.YK-smsphoto-text {
+    color: #000;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* size / font-size-20 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    width: 445px;
+    
+}
+
+.YK-smsphoto-text p{
+
+    margin: 4px !important;
+}
+.YK-smsphoto-img {
+    width: 124.593px;
+    height: 64px;
+    cursor: pointer;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    z-index: 1;
+}
+.YK-smsphoto-btns{
+    display: flex;
+/* align-items: flex-start; */
+gap: 12px;
+padding: 10px 0px;
+}
+.YK-smsphoto-btns button{
+    border-radius: 100px;
+border: 1px solid var(--border-color-border, #8891AA);
+background: var(--background-color-background-body, #FFF);
+display: flex;
+padding: 4px 8px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+cursor: pointer;
+}
+
+.YK-smsphoto-btns span{
+    color: var(--text-color-text, #121C2D);
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* weight / font-weight-semibold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+display: flex;
+}
+.YK-smsphoto-btns img{
+    width: 20px;
+height: 20px;
+}

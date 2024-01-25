@@ -1,0 +1,200 @@
+.YK-account-body {
+    display: flex;
+    /* padding: 1rem; */
+    /* padding-top: 0px; */
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    width: 1050px;
+}
+
+.YK-icons {
+    border: 1px solid #8891AA;
+    border-radius: 50%;
+    width: 20px;
+    padding: 4px;
+    position: absolute;
+    top: 3px;
+    left: 15px;
+}
+
+.YK-account-sms {
+    padding-left: 50px;
+
+}
+
+.YK-account-sms::before {
+    content: "";
+    border: 2px dashed #CACDD8;
+    height: 85px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    position: absolute;
+    left: 29px;
+    top: 35px;
+}
+
+.YK-account-sms-children1,
+.YK-account-sms-children2,
+.YK-account-sms-children3 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.YK-account-sms-children1 p {
+    color: var(--text-color-text-weak, #606B85);
+    text-align: right;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* size / font-size-10 */
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 160% */
+}
+
+.YK-account-sms-children2 p,
+.YK-account-sms-children3 p {
+    color: #606B85;
+    overflow: hidden;
+    color: var(--text-color-text-weak, #606B85);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    /* size / font-size-20 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.YK-account-telephone-children1 p {
+    color: var(--text-color-text-weak, #606B85);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin-bottom: 0px;
+    /* size / font-size-10 */
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 160% */
+}
+
+.YK-account-telephone-children2 p,
+.YK-account-telephone-children3 p {
+    color: #606B85;
+    overflow: hidden;
+    color: var(--text-color-text-weak, #606B85);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    /* size / font-size-20 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+.YK-icons4 {
+    border: 1px solid #8891AA;
+    border-radius: 50%;
+    width: 20px;
+    padding: 4px;
+    position: absolute;
+    top: 384px;
+    left: 24px;
+}
+
+.YK-account-personal {
+    padding-left: 50px;
+
+}
+
+/* .YK-account-personal::before {
+    content: "";
+    border: 2px dashed #CACDD8;
+    height:45px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    position: absolute;
+    top: 416px;
+    left: 38px;
+} */
+
+
+.YK-account-personal-children3 {
+    display: flex;
+    gap: 10px;
+
+}
+
+
+
+
+.YK-account-personal-children3 p {
+    color: #606B85;
+    overflow: hidden;
+    color: var(--text-color-text-weak, #606B85);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    /* size / font-size-20 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.point {
+    width: 13px;
+    height: 13px;
+    background-color: #8891AA;
+    border-radius: 50%;
+    position: absolute;
+    top: 445px;
+    left: 31px
+}  
+.YK-text-point{
+    color: var(--text-color-text-weak, #606B85);
+font-variant-numeric: lining-nums tabular-nums;
+font-feature-settings: 'clig' off, 'liga' off;
+margin: 0px;
+/* size / font-size-10 */
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 160% */
+}
+span{
+    color: var(--text-color-text, #121C2D);
+text-align: right;
+font-variant-numeric: lining-nums tabular-nums;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* size / font-size-10 */
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 160% */
+}

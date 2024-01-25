@@ -1,0 +1,361 @@
+.YK-MessageBox {}
+
+.YK-MessageBox-header {
+    width: 558px;
+    height: 50px;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: #CACDD8 1px solid;
+}
+
+.YK-MessageBox-header-h {}
+
+.YK-MessageBox-header-h h2 {
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* heading / h5 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.YK-MessageBox-header-h p {
+    color: #67748E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+.YK-MessageBox-header-btn button {
+    border-radius: 100px;
+    border: 1px solid var(--border-color-border, #8891AA);
+    background: var(--background-color-background-body, #FFF);
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--text-color-text, #121C2D);
+}
+
+.YK-MessageBox-header-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-text, #121C2D);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* weight / font-weight-semibold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.YK-MessageBox-body {
+    width: 558;
+    
+    display: flex;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1 0 0;
+    align-self: stretch;
+    flex-direction: column;
+    overflow-y: scroll;
+
+}
+
+.YK-MessageBox-body-p1 {
+    width: 510px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    /* justify-content: right; */
+    padding: 0px 0px 28px 24px;
+
+}
+.YK-MessageBox-body-p1 span {
+    color: var(--text-color-text-weak, #606B85);
+    text-align: right;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* size / font-size-20 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+
+}
+
+.YK-MessageBox-body-p1 p {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--background-primary-color-background-primary-weakest, #EBF4FF);
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* family / font-family-text */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.YK-MessageBox-body-p2 {
+    width: 510px;
+    height: 238px;
+    display: flex;
+    padding: 0px 24px 28px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.YK-MessageBox-body-p2 span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch; 
+    color: var(--text-color-text-weak, #606B85);
+    text-align: right;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* size / font-size-20 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.span p{
+}
+
+.YK-MessageBox-body-p2 .p1 {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--background-color-background, #F4F4F6);
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* family / font-family-text */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    flex: 1 0 0;
+
+}
+
+.YK-MessageBox-body-p2 .p2 {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--background-color-background, #F4F4F6);
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /*  */
+    /* family / font-family-text */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.YK-MessageBox-body-p2 .p3 {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--background-color-background, #F4F4F6);
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* family / font-family-text */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.YK-MessageBox-body-p3 {
+
+    width: 510px;
+    height: 90px;
+    display: flex;
+    padding: 0px 0px 28px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.YK-MessageBox-body-p3 span{
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+color: var(--text-color-text-weak, #606B85);
+text-align: right;
+font-variant-numeric: lining-nums tabular-nums;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* size / font-size-20 */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+}
+.YK-MessageBox-body-p3 p {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--background-primary-color-background-primary-weakest, #EBF4FF);
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* family / font-family-text */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+
+}
+
+.YK-MessageBox-body-p4 {
+
+    width: 510px;
+    height: 100px;
+    display: flex;
+    padding: 0px 0px 28px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.YK-MessageBox-body-p4 span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: var(--text-color-text-weak, #606B85);
+text-align: right;
+font-variant-numeric: lining-nums tabular-nums;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* size / font-size-20 */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+}
+.YK-MessageBox-body-p4 p{
+    display: flex;
+padding: 8px 12px;
+align-items: center;
+align-self: stretch;
+border-radius: 8px;
+background: var(--background-primary-color-background-primary-weakest, #EBF4FF);
+color: var(--text-color-text, #121C2D);
+font-variant-numeric: lining-nums tabular-nums;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* family / font-family-text */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.span{
+    display: flex;
+    justify-content: space-between;
+width: 500px;
+}
+.YK-MessageBox-footer{
+    display: flex;
+padding: 16px 24px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+border-top: 1px solid var(--border-color-border-weak, #CACDD8);
+background: var(--background-color-background-body, #FFF);
+width: 558px;
+}
+.YK-MessageBox-footer .chat{
+    color: var(--text-color-text-weaker, #AEB2C1);
+font-variant-numeric: lining-nums tabular-nums;
+font-feature-settings: 'clig' off, 'liga' off;
+display: flex;
+justify-content: space-between;
+width: 558px;
+/* family / font-family-text (italic) */
+font-family: Inter;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+border: none;
+line-height: 20px; /* 142.857% */
+}
+.YK-MessageBox-footer .send{
+    display: flex;
+    align-items: center;
+}
