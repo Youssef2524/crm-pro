@@ -7,7 +7,7 @@ import Forward from './compooned/Forward/Forward'
 import Replay from './compooned/Replay/Replay'
 import Smsphoto from './compooned/Smsphoto/Smsphoto'
 function App() {
-  let Lead = true;
+  let Lead = false;
   let user;
   if (Lead) {
     user = <History />
